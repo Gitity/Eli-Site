@@ -1,0 +1,66 @@
+body {
+	background:#4185F2;
+}
+
+
+/*/////// Trusted Companies section/////////////*/
+.trusted-companies-wrapper {
+	width:auto;
+	height:90px;
+	background: #ECF7FC;	
+}
+
+.trusted-companies-logos div {
+	display: inline-block;
+
+}
+.trusted-companies-logos div img {
+	vertical-align: top;
+	max-width: 150px;
+
+}
+h6 {
+	text-align: center;
+	color:#908f8f;
+}
+
+
+
+.pelephone {
+	width:25%;
+}
+
+
+/*/////// Benefits section/////////////*/
+ #firstDeck {
+	background: #F5F5F5;
+	height:400px;
+	width:890px;
+	border-radius:2%;
+	margin:0 auto;
+	padding:35px;
+	display: flex;
+	margin-top:10px;
+}
+#firstDeck div {
+	flex:1;
+}
+	span {
+	color:#032a3f;
+	font-size:42px;
+	}
+
+.benefits-header div {
+	text-align: center;
+}
+
+#innovation, #professionalism, #trust {
+	width:200px;
+	display: inline-block;
+	margin-left:40px;
+}
+/* cahce
+
+
+https://upload.wikimedia.org/wikipedia/he/a/a7/Pelephone-logo.svg"
+https://upload.wikimedia.org/wikipedia/commons/d/de/SpaceX-Logo.svg */
