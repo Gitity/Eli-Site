@@ -6,28 +6,36 @@ body {
 /*/////// Trusted Companies section/////////////*/
 .trusted-companies-wrapper {
 	width:auto;
-	height:90px;
-	background: #ECF7FC;	
+	height:100px;
+	background: #ECF7FC;
 }
+	.trusted-companies-logos {
+		margin:0 auto;
+	}
 
 .trusted-companies-logos div {
 	display: inline-block;
 
 }
 .trusted-companies-logos div img {
-	vertical-align: top;
+	vertical-align: middle;
+	width:auto;
+	margin-right:50px;
 	max-width: 150px;
 
 }
 h6 {
 	text-align: center;
 	color:#908f8f;
+	font-weight: bold;
+	font-size:1.1em;
+	margin:0;
 }
 
 
 
 .pelephone {
-	width:25%;
+	width:80%;
 }
 
 
@@ -59,6 +67,31 @@ h6 {
 	display: inline-block;
 	margin-left:40px;
 }
+
+/* add to docs */
+body {
+    width:1440px;
+    }
+    .carousel, .carousel-inner {
+      width:auto;
+      display: inline-block;
+      margin: auto;
+    }
+    #myCarousel {
+      margin:0;
+    }
+
+    .carousel-inner > .item > img {
+      margin:0 auto;
+    }
+
+@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.eot.eot");
+@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.svg");
+@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.ttf");
+@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.woff.woff");
+@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.woff2.woff);
+
+
 /* cahce
 
 

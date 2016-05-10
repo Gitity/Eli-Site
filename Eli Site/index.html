@@ -7,69 +7,121 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    
-
     <!-- Latest compiled and minified CSS -->
+<!--     <link rel="stylesheet" type="text/css" href="../../resources/bootstrap/css/bootstrap.min.css"> -->
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" type="text/css" href="../../resources/bootstrap/css/bootstrap-theme.min.css">   
+     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <!-- Font Files -->
+    <link rel="stylesheet" type="text/css" href="../../resources/bootstrap/">
+    <!-- Local CSS -->
+    <link href="css.css" rel="stylesheet" type="text/css" />
+    
     <style type="text/css">
-   body {
-    width:1440px;
-   }
-    .carousel, .carousel-inner {
-      width:auto;
-      display: inline-block;
-      margin: auto;
-    }
-    #myCarousel {
-      margin:0 auto;
-    }
-
-    .carousel-inner > .item > img {
-      margin:0 auto;
-    }
 
     </style>
-    <link href="css.css" rel="stylesheet" type="text/css" />
 
-    <script type="text/javascript" href="js.js"></script>
-    <script type="text/javascript"></script> 
+
 </head>
+
 <body>
+<!--Navbar-->
+<nav class="navbar navbar-default"> 
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Dummy</a></li>
+            <li><a href="#">Dummy</a></li>
+            <li><a href="#">Dummy</a></li>
+            <li><a href="#">Dummy</a></li>  
+          </ul>
+        </div>
+    </div>
+</nav> <!--Navbar END-->
 
+<div class="container">
+  <div class="row">
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      
+      <!--Items-->
+      <div class="carousel-inner"> 
+        <div class="item active">
+          <img src="images/building-cloud.jpg">
+          <div class="carousel-caption">
+            <h3>Professionalism</h3>
+            <p>Our team is the best</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/building-cloud.jpg">
+        </div>
+        <div class="item">
+          <img src="images/building-cloud.jpg">
+          <div class="carousel-caption">
+            <h3>Expertise</h3>
+            <p>Immovation N stuff</p>
+          </div>
+        </div>
+      </div>
+      
+      <!--Controls-->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div><!--Carousel END-->
+  </div>
+</div>
 
+<!-- Company Logos -->
 <section class="trusted-companies-wrapper">
   <div class="container">
     <div class="trusted-companies-title">
       <h6>Trusted by...</h6>
     </div>
+    <!-- Logo Container -->
     <div class="trusted-companies-logos">
       <div class="company-image">
-        <img class="" src="https://upload.wikimedia.org/wikipedia/commons/d/de/SpaceX-Logo.svg">
+        <img class="" src="images/cat-logo.png" height="60">
+      </div>
+      <div  class="company-image">
+        <img class="" src="images/pelephone-logo.png" height="60">
       </div>
       <div class="company-image">
-        <img class="pelephone" src="https://upload.wikimedia.org/wikipedia/he/a/a7/Pelephone-logo.svg">
+        <img class="" src="images/big-logo.png" height="80">
       </div>
       <div class="company-image">
-        <img class="" src="https://upload.wikimedia.org/wikipedia/commons/d/de/SpaceX-Logo.svg">
+        <img class="" src="images/crowne-plaza-logo.png" height="60">
       </div>
       <div class="company-image">
-        <img class="" src="https://upload.wikimedia.org/wikipedia/commons/d/de/SpaceX-Logo.svg">
+        <img src="images/ernst-young-logo.png" >
+      </div>
+      <div class="company-image">
+        <img src="images/holiday-inn-logo.png" height="60">
+      </div>
+      <div class="company-image">
+        <img src="images/fatal-logo.png" height="60" style="margin:0">
       </div>
     </div> 
 
 
   </div>
-</section>
+</section> <!-- Company Logos END -->
 
-
-</div>
-
+<!-- Selling points first deck  -->
 <div id="firstDeck" class="benefits-header">
   <div class="" id="trust">
     <span class="glyphicon glyphicon-star"></span>
@@ -86,20 +138,9 @@
     <h3>Professionalism</h3>
     <p>We have very high standards for out stuff We have very high standards for out stuff We have very high standards for out stuff We have very high standards for out stuff </p>
   </div>
-</div>
+</div> <!-- Selling points first deck END -->
 
-<!-- <nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-          <li><a href="#">Dummy</a></li>
-          <li><a href="#">Dummy</a></li>
-          <li><a href="#">Dummy</a></li>
-          <li><a href="#">Dummy</a></li>  
-          </ul>
-        </div>
-    </div>
-</nav> -->
+
 
 <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -144,5 +185,6 @@
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" href="js.js"></script>
 </body>
 </html>
