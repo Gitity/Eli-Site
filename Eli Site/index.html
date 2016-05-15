@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Example Domain</title>
+    <title>Eli site</title>
 
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
@@ -23,13 +23,11 @@
     <style type="text/css">
 
     </style>
-
-
 </head>
 
 <body>
 <!--Navbar-->
-<nav class="navbar navbar-default"> 
+<nav id="navigation" class="navbar navbar-inverse"> 
     <div class="container-fluid">
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -40,51 +38,56 @@
           </ul>
         </div>
     </div>
-</nav> <!--Navbar END-->
+</nav> 
+<!--Navbar END-->
 
-<div class="container">
-  <div class="row">
-    <!--Carousel-->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      
-      <!--Items-->
-      <div class="carousel-inner"> 
-        <div class="item active">
-          <img src="images/building-cloud.jpg">
-          <div class="carousel-caption">
-            <h3>Professionalism</h3>
-            <p>Our team is the best</p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/building-cloud.jpg">
-        </div>
-        <div class="item">
-          <img src="images/building-cloud.jpg">
-          <div class="carousel-caption">
-            <h3>Expertise</h3>
-            <p>Immovation N stuff</p>
-          </div>
-        </div>
+<!--Carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="30000000">
+  
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!--Items-->
+  <div class="carousel-inner"> 
+    <div class="item active">
+      <img src="images/building-cloud.jpg">
+      <div id="firstCaption" class="carousel-caption">
+        <span dir="rtl">תשלום אך ורק בתנאי פתירת הבעיה.<br>
+        ללא הרמת מרצפות.<br>
+        חכם, מדויק, נקי ומהיר.<br>
+        היום קוראים לזה איטום ממוקד.</span>
       </div>
-      
-      <!--Controls-->
-      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="carousel-control right" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
-    </div><!--Carousel END-->
+    </div>
+    <div class="item">
+      <img src="images/climbers.jpg">
+      <div class="carousel-caption">
+        <span>Climb like a motherfucker fuck yeah bitchClimb like a linebreakkkk2222222 fuck yeah bitchClimb like a motherfucker fuck yeah bitchClimb like a motherfucker fuck yeah bitch</span>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/windows.jpg">
+      <div class="carousel-caption">
+        <h3>Expertise</h3>
+        <p>Immovation N stuff</p>
+      </div>
+    </div>
   </div>
+  
+  <!--Controls-->
+<!--   <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a> -->
 </div>
+<!--Carousel END-->
+
+
 
 <!-- Company Logos -->
 <section class="trusted-companies-wrapper">
@@ -116,10 +119,9 @@
         <img src="images/fatal-logo.png" height="60" style="margin:0">
       </div>
     </div> 
-
-
   </div>
-</section> <!-- Company Logos END -->
+</section> 
+<!-- Company Logos END -->
 
 <!-- Selling points first deck  -->
 <div id="firstDeck" class="benefits-header">
