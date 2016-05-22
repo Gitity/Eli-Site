@@ -1,7 +1,60 @@
-body {
-	background:#4185F2;
+/* Import */
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
+/* @import url('../../Resources/Fonts/measure.otf'); */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700;');
+@font-face {
+  font-family:Quick;
+  font-style:italic;
+  font-weight:400;
+}
+@font-face {
+  font-family:Measure;
+  font-style:italic;
+  font-weight:400;
+  src: url('Measure.otf') format("opentype");
 }
 
+
+/* Document */
+
+body {
+  width:1423px;
+  background:#4185F2;
+  }
+
+/* Navigation */
+
+#navigation {
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+/* Carousel */
+
+#myCarousel, h6, section {
+	margin-top: 0;
+}
+
+#bootstrap-override .carousel-caption {
+	font-family: "Times New Roman", sans-serif;
+	font-size:60px;
+  line-height:60px;
+  word-spacing: 20px;
+  color:#fff;
+	text-align: right;
+  left:-2%;
+	top:1%;
+  width:100%;
+}
+  .carousel-caption span span {
+    margin-top:50px;
+    display: inline-block;
+    color:#B8CDD3;
+  }
+
+.carousel-inner > .item > img {
+  margin:0 auto;
+ }
 
 /*/////// Trusted Companies section/////////////*/
 .trusted-companies-wrapper {
@@ -28,9 +81,10 @@ h6 {
 	text-align: center;
 	color:#908f8f;
 	font-weight: bold;
-	font-size:1.1em;
+	font-size:1.4em;
 	margin:0;
 }
+
 
 
 
@@ -40,26 +94,47 @@ h6 {
 
 
 /*/////// Benefits section/////////////*/
- #firstDeck {
-	background: #F5F5F5;
-	height:400px;
-	width:890px;
-	border-radius:2%;
+#bootstrap-override .benefits-deck {
+  font-family: 'Times New Roma', sans-serif;
+  font-size:16px;
+  text-align: center;
+	/* background: #F5F5F5; */
+	height:auto;
+	width:auto;
 	margin:0 auto;
 	padding:35px;
 	display: flex;
-	margin-top:10px;
 }
-#firstDeck div {
-	flex:1;
+.benefits-first {
+	background:#ED6F37;
+  color:white;
+
 }
-	span {
-	color:#032a3f;
-	font-size:42px;
+.benefits-second {
+	background:#7998B2;
+}
+	.benefits-second p {
+		color: #C6D6E3;
+		padding-top:5px;
+	}
+	.icon-second {
+		width:160px;
+		height:160px;
+	}
+	h5 {
+		margin:0;
+		color:#305779;
+		font-size:20px;
+		font-family: 'Times New Roman', sans-serif;
 	}
 
+
+.benefits-deck div {
+	flex:1;
+}
+
+
 .benefits-header div {
-	text-align: center;
 }
 
 #innovation, #professionalism, #trust {
@@ -67,33 +142,34 @@ h6 {
 	display: inline-block;
 	margin-left:40px;
 }
+              /*  Icons */
 
-/* add to docs */
-body {
-    width:1440px;
-    }
-    .carousel, .carousel-inner {
-      width:auto;
-      display: inline-block;
-      margin: auto;
-    }
-    #myCarousel {
-      margin:0;
-    }
+.icon {
+  height:32px;
+  width:32px;
+  color:blue;
+}
+  .icon-lightbulb {
+    background-image:url('images/handshake.svg');
+  }
+  .icon-handshake {
+    background-image:url('images/hand-shake.svg');
+  }
+  .icon-flask {
+    background-image:url('images/employment-deal.svg');
+  }
+h4 {
+	font-size:24px;
+	font-weight:bold;
+}
 
-    .carousel-inner > .item > img {
-      margin:0 auto;
-    }
-
-@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.eot.eot");
-@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.svg");
-@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.ttf");
-@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.woff.woff");
-@import url("../../resources/bootstrap/fonts/glyphicons-halflings-regular.woff2.woff);
-
-
-/* cahce
+/* Accessory */
+.rtl {
+	direction: rtl;
+}
+.space-div {
+  height:300px;
+  width:100%;
+}
 
 
-https://upload.wikimedia.org/wikipedia/he/a/a7/Pelephone-logo.svg"
-https://upload.wikimedia.org/wikipedia/commons/d/de/SpaceX-Logo.svg */
